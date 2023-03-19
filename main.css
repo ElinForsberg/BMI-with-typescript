@@ -1,0 +1,48 @@
+body {
+    background-image: url("weight.jpg");
+    background-size: cover;
+
+}
+
+#bmi_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    /* width: 100px; */
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30px;
+    margin-top: 80px;
+    /* border: 2px solid black; */
+    
+}
+
+.input {
+    background-color: rgb(156, 168, 167);
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 70px;
+    height:30px;
+    display: flex;
+    
+}
+
+.submitbtn {
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 70px;
+    height:30px;
+}
+.bmi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 50px;
+    margin-top: 130px;
+}
+/* .cssh3 {
+
+} */
